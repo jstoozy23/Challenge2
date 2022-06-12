@@ -6,13 +6,17 @@ a {
 body   {
     font-family:Georgia, 'Times New Roman', Times, serif;
     color: white;
-    background-color: blue;
+    background-color: rgb(128, 128, 172);
 }
 
 .flexheader {
     display: flex;
     justify-content: space-between;
     background-image: url(assets/quantum.jpg);
+}
+
+ul {
+    margin-right: 20px;
 }
 
 li {
@@ -28,7 +32,14 @@ li:active{
     font-weight:bold;
 }
 
-h1 {}
+h1 {
+    color:rgb(211, 238, 211);
+    font-size: 60px;
+}
+
+section {
+    border: 5px solid black;
+}
 
 h2 {
     align-items: center ;
@@ -40,23 +51,21 @@ h2 {
 
 
 p {
+    width:300px;
+    padding:20px;
+    border:2px solid black;
     margin-left: 20px;
-    font-weight: bold;
-    font: size 20px;
+    margin: right 200px;
+    font-style: italic;
+    font-size:  20px;
 
 }
 
 h3, h4, h5 {
+    font-size: 40px;
+    color:rgb(87, 41, 41);
+    text-align:center;
 
-}
-
-h3 {
-    margin-left:134px;
-}
-
-h4 {
-    text-align:end;
-    margin-right:227px;
 }
 
 .leftside {
@@ -66,24 +75,22 @@ h4 {
 
 }
 
-.rightside {
+.rowreverse {
     display:flex;
     flex-direction: row-reverse;
     justify-content: space-evenly;
     align-items:center;
 }
 
-.spacebetween {
-    display:flex;
-    align-items:center;
-    justify-content: space-evenly;
-}
-
 .spaceevenly {
     display:flex;
     align-items:center;
+    justify-content: space-evenly;
+    padding-top: 70px;
 }
 
-.spaceevenly p {
-    margin-right:100px
+.spaceevenlynopad {
+    display:flex;
+    align-items:center;
+    justify-content: space-evenly;
 }
