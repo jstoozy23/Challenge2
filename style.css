@@ -42,11 +42,13 @@ section {
 }
 
 h2 {
-    align-items: center ;
-    text-align:center;
-    size: 40px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    font: 40px;
     background-color: navy;
-    color:aqua
+    color:aqua;
+    height:86px;
 }
 
 
