@@ -6,7 +6,7 @@ a {
 body   {
     font-family:Georgia, 'Times New Roman', Times, serif;
     color: white;
-    background-color: rgb(128, 128, 172);
+    background-color: rgb(18, 18, 19);
 }
 
 .flexheader {
@@ -45,8 +45,7 @@ h2 {
     display:flex;
     justify-content:center;
     align-items: center;
-    font: 40px;
-    background-color: navy;
+    font: 60px;
     color:aqua;
     height:86px;
 }
@@ -65,7 +64,7 @@ p {
 
 h3, h4, h5 {
     font-size: 40px;
-    color:rgb(87, 41, 41);
+    color:rgb(102, 97, 97);
     text-align:center;
 
 }
