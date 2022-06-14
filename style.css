@@ -1,12 +1,12 @@
 
 a {
-    color: aqua;
+    color: rgb(105, 163, 163);
 }
 
 body   {
     font-family:Georgia, 'Times New Roman', Times, serif;
-    color: white;
-    background-color: rgb(18, 18, 19);
+    color: black;
+    background-color: white;
 }
 
 .flexheader {
@@ -15,12 +15,16 @@ body   {
     background-image: url(assets/quantum.jpg);
 }
 
+nav {
+    color:white;
+}
+
 ul {
     margin-right: 20px;
 }
 
 li {
-    color:aqua;
+    color: white;
     opacity: 50%;
 }
 
@@ -33,7 +37,7 @@ li:active{
 }
 
 h1 {
-    color:rgb(211, 238, 211);
+    color:white;
     font-size: 60px;
 }
 
@@ -46,7 +50,7 @@ h2 {
     justify-content:center;
     align-items: center;
     font: 60px;
-    color:aqua;
+    color:black;
     height:86px;
 }
 
@@ -56,11 +60,15 @@ p {
     padding:20px;
     border:2px solid black;
     margin-left: 20px;
-    margin: right 200px;
+    margin-right:20px;
     font-style: italic;
+    font-weight:bold;
     font-size:  20px;
+    color: black;
+
 
 }
+
 
 h3, h4, h5 {
     font-size: 40px;
@@ -83,6 +91,8 @@ h3, h4, h5 {
     align-items:center;
 }
 
+
+
 .spaceevenly {
     display:flex;
     align-items:center;
@@ -95,3 +105,4 @@ h3, h4, h5 {
     align-items:center;
     justify-content: space-evenly;
 }
+
