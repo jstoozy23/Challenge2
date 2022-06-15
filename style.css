@@ -88,12 +88,20 @@ h3, h4, h6 {
 
 }
 
+section #whativedone {
+    font-weight: bold;
+}
+
 .rowreverse {
     display:flex;
     flex-direction: row-reverse;
     justify-content: space-evenly;
     align-items:center;
 
+}
+
+.rowreverse div {
+    font-size: 40px;
 }
 
 .rowreverse img:hover {
@@ -115,6 +123,10 @@ h3, h4, h6 {
     align-items:center;
     justify-content: space-evenly;
     padding-top: 70px;
+}
+
+.spaceevenly div {
+    font-size: 20px;
 }
 
 .spaceevenlynopad {
