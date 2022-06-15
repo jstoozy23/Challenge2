@@ -41,23 +41,18 @@ h1 {
     font-size: 60px;
 }
 
-section {
-
-}
-
 h2 {
     display:flex;
     justify-content:center;
     align-items: center;
     font-size: 60px;
-    color:black;
+    color:rgb(66, 57, 57);
     height:86px;
 }
 
 h5 {
     font-size: 50px;
 }
-
 
 p {
     width:300px;
@@ -69,16 +64,18 @@ p {
     font-size:  20px;
     border: 2px solid black;
     color: black;
-
-
 }
-
 
 h3, h4, h6 {
     font-size: 40px;
-    color:rgb(102, 97, 97);
+    color:rgb(66, 57, 57);
     text-align:center;
 
+}
+
+h6 {
+    margin-top: 60px;
+    height:0px;
 }
 
 .leftside {
@@ -102,6 +99,7 @@ section #whativedone {
 
 .rowreverse div {
     font-size: 40px;
+    font-weight:bold;
 }
 
 .rowreverse img:hover {
@@ -110,7 +108,6 @@ section #whativedone {
 
 .rowreverse img:active {
     transform:scale(1,1.5);
-
 }
 
 .rounded {
@@ -125,12 +122,22 @@ section #whativedone {
     padding-top: 70px;
 }
 
+.spaceevenly img:hover {
+    transform:scale(1,1.25);
+}
+
+.spaceevenly img:active {
+    transform:scale(1,1.5);
+}
+
 .spaceevenly div {
     font-size: 20px;
+    font-weight: bold;
 }
 
 .spaceevenlynopad {
     display:flex;
+    margin-bottom:20px ;
     align-items:center;
     justify-content: space-evenly;
 }
