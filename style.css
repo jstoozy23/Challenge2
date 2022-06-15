@@ -6,7 +6,7 @@ a {
 body   {
     font-family:Georgia, 'Times New Roman', Times, serif;
     color: black;
-    background-color: white;
+    background-color: #b1a2a2;
 }
 
 .flexheader {
@@ -16,7 +16,10 @@ body   {
 }
 
 nav {
+    display:flex;
+    align-items: center;
     color:white;
+    font-family: fantasy;
 }
 
 ul {
@@ -25,7 +28,7 @@ ul {
 
 li {
     color: white;
-    opacity: 50%;
+    opacity: 70%;
 }
 
 li:hover{
@@ -37,9 +40,10 @@ li:active{
 }
 
 h1 {
+    
+    font-family: sans-serif;
     color:white;
     font-size: 60px;
-    align-items: center;
 }
 
 h2 {
@@ -67,6 +71,10 @@ p {
     color: black;
 }
 
+.leftside p {
+    font-family: sans-serif;
+}
+
 h3, h4, h6 {
     font-size: 40px;
     color:rgb(66, 57, 57);
@@ -86,8 +94,17 @@ h6 {
 
 }
 
+.me {
+    transform: rotate(-8deg);
+    border: 2px solid black;
+}
+
 section #whativedone {
     font-weight: bold;
+}
+
+#whativedone img {
+    border: 2px solid black;
 }
 
 .rowreverse {
@@ -123,6 +140,9 @@ section #whativedone {
     padding-top: 70px;
 }
 
+.spaceevenlynopad li {
+    color:black;
+}
 .spaceevenly img:hover {
     transform:scale(1,1.25);
 }
@@ -141,17 +161,16 @@ section #whativedone {
     margin-bottom:20px ;
     align-items:center;
     justify-content: space-evenly;
-    color:black;
 }
   
   /* Large smartphones - navbar changes color */
- @media screen and (max-width: 870px) {
+ @media screen and (max-width: 1020px) {
     h1 {
         font-size: 40px;
         margin-top: 50px;
     }
 
-@media screen and (max-width: 728px) {
+@media screen and (max-width: 855px) {
     h1 {
         font-size: 30px;
         margin-top: 50px;
@@ -159,22 +178,38 @@ section #whativedone {
   }
 
   /* Large smartphones - navbar changes color */
-  @media screen and (max-width: 870px) {
+  @media screen and (max-width: 1020px) {
     h2 {
         font-size: 40px;
     }
   }
   
-  @media screen and (max-width: 728px) {
+  @media screen and (max-width: 855px) {
     h2 {
         font-size: 30px;
     }
   }
-  
-  @media screen and (max-width: 870px) {
-    img {
-        /* max-width: 250px;
-        max-height: 125px; */
-        transform:scale(1,.75);
+
+  @media screen and (max-width: 1020px) {
+    .me {
+        max-width: 300px;
+        max-height: 185px;
     }
-}
+
+@media screen and (max-width: 938px) {
+    .me {
+        max-width: 200px;
+        max-height: 150px;
+    }
+
+@media screen and (max-width: 670px) {
+    .headshot {
+        max-width: 100px;
+        max-height: 75px;
+    }
+  }
+
+  @media screen and (max-width: 1020px) {
+    .leftside p {
+        font-size:17px;
+    }
