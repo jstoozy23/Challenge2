@@ -15,6 +15,10 @@ body   {
     background-image: url(assets/quantum.jpg);
 }
 
+.flexheader div {
+    display: flex;
+}
+
 nav {
     display:flex;
     align-items: center;
@@ -44,6 +48,7 @@ h1 {
     font-family: sans-serif;
     color:white;
     font-size: 60px;
+    margin-left: 20px;
 }
 
 h2 {
@@ -202,7 +207,7 @@ section #whativedone {
         max-height: 150px;
     }
 
-@media screen and (max-width: 670px) {
+@media screen and (max-width: 680px) {
     .headshot {
         max-width: 100px;
         max-height: 75px;
