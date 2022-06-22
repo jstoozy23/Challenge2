@@ -9,10 +9,10 @@ body   {
     background-color: #b1a2a2;
 }
 
-.flexheader {
+header {
     display: flex;
     justify-content: space-between;
-    background-image: url(assets/quantum.jpg);
+    background-color: blueviolet;
 }
 
 .flexheader div {
@@ -22,6 +22,8 @@ body   {
 nav {
     display:flex;
     align-items: center;
+    height:500px;
+    /* background-color: ; */
     color:white;
     font-family: fantasy;
 }
@@ -174,6 +176,7 @@ section #whativedone {
         font-size: 40px;
         margin-top: 50px;
     }
+}
 
 @media screen and (max-width: 855px) {
     h1 {
@@ -200,13 +203,13 @@ section #whativedone {
         max-width: 300px;
         max-height: 185px;
     }
-
+}
 @media screen and (max-width: 938px) {
     .me {
         max-width: 200px;
         max-height: 150px;
     }
-
+}
 @media screen and (max-width: 680px) {
     .headshot {
         max-width: 100px;
@@ -218,3 +221,4 @@ section #whativedone {
     .leftside p {
         font-size:17px;
     }
+}
